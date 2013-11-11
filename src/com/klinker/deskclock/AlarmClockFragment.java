@@ -477,7 +477,7 @@ public class AlarmClockFragment extends DeskClockFragment implements
         // case where an intent comes in telling the activity to load the timepicker,
         // which means we have to use that one everywhere so that the fragment can get
         // correctly picked up here if it's open.
-        TimePickerDialog tpd = (TimePickerDialog) getChildFragmentManager().
+        TimePickerDialog tpd = (TimePickerDialog) getFragmentManager().
                 findFragmentByTag(AlarmUtils.FRAG_TAG_TIME_PICKER);
         if (tpd != null) {
             // The dialog is already open so we need to set the listener again.
@@ -1123,14 +1123,15 @@ public class AlarmClockFragment extends DeskClockFragment implements
                 public void onClick(View v) {
                     mDeletedAlarm = alarm;
 
-                    view.animate().setDuration(ANIMATION_DURATION).alpha(0).translationY(-1)
-                    .withEndAction(new Runnable() {
-
-                        @Override
-                        public void run() {
-                            asyncDeleteAlarm(mDeletedAlarm, view);
-                        }
-                    });
+                    try {
+                        view.animate().setDuration(ANIMATION_DURATION).alpha(0).translationY(-1)
+                        .withEndAction(new Runnable() {
+                         @Override
+                            public void run() {
+                                asyncDeleteAlarm(mDeletedAlarm, view);
+                            }
+                        });
+                    } catch (Throwable e) { }
                 }
             });
 
@@ -1359,9 +1360,11 @@ public class AlarmClockFragment extends DeskClockFragment implements
             if (title == null) {
                 // This is slow because a media player is created during Ringtone object creation.
                 Ringtone ringTone = RingtoneManager.getRingtone(mContext, uri);
-                title = ringTone.getTitle(mContext);
-                if (title != null) {
-                    mRingtoneTitleCache.putString(uri.toString(), title);
+                if (ringTone != null) {
+                    title = ringTone.getTitle(mContext);
+                    if (title != null) {
+                        mRingtoneTitleCache.putString(uri.toString(), title);
+                    }
                 }
             }
             return title;
@@ -1674,7 +1677,7 @@ public class AlarmClockFragment extends DeskClockFragment implements
         // Set the "selected" alarm as null, and we'll create the new one when the timepicker
         // comes back.
         mSelectedAlarm = null;
-        AlarmUtils.showTimeEditDialog(getChildFragmentManager(),
+        AlarmUtils.showTimeEditDialog(getFragmentManager(),
                 null, AlarmClockFragment.this, DateFormat.is24HourFormat(getActivity()));
     }
 
