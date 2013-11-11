@@ -30,9 +30,9 @@ import android.util.Log;
 import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
-import android.widget.TextClock;
 
 import com.klinker.deskclock.Utils.ScreensaverMoveSaverRunnable;
+import com.klinker.deskclock.widget.TextClock;
 
 public class ScreensaverActivity extends Activity {
     static final boolean DEBUG = false;

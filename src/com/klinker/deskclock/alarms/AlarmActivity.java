@@ -32,7 +32,6 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
-import android.widget.TextClock;
 import android.widget.TextView;
 
 import com.klinker.deskclock.Log;
@@ -40,6 +39,7 @@ import com.klinker.deskclock.R;
 import com.klinker.deskclock.SettingsActivity;
 import com.klinker.deskclock.Utils;
 import com.klinker.deskclock.provider.AlarmInstance;
+import com.klinker.deskclock.widget.TextClock;
 import com.klinker.deskclock.widget.multiwaveview.GlowPadView;
 
 /**

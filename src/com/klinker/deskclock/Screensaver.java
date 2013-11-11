@@ -28,9 +28,9 @@ import android.provider.Settings;
 import android.service.dreams.DreamService;
 import android.util.Log;
 import android.view.View;
-import android.widget.TextClock;
 
 import com.klinker.deskclock.Utils.ScreensaverMoveSaverRunnable;
+import com.klinker.deskclock.widget.TextClock;
 
 public class Screensaver extends DreamService {
     static final boolean DEBUG = false;

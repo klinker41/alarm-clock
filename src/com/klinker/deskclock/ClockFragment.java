@@ -35,9 +35,9 @@ import android.view.View.OnTouchListener;
 import android.view.ViewConfiguration;
 import android.view.ViewGroup;
 import android.widget.ListView;
-import android.widget.TextClock;
 
 import com.klinker.deskclock.alarms.AlarmNotifications;
+import com.klinker.deskclock.widget.TextClock;
 import com.klinker.deskclock.worldclock.WorldClockAdapter;
 
 /**

@@ -49,11 +49,11 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.animation.AccelerateInterpolator;
 import android.view.animation.DecelerateInterpolator;
-import android.widget.TextClock;
 import android.widget.TextView;
 
 import com.klinker.deskclock.stopwatch.Stopwatches;
 import com.klinker.deskclock.timer.Timers;
+import com.klinker.deskclock.widget.TextClock;
 import com.klinker.deskclock.worldclock.CityObj;
 
 import java.text.SimpleDateFormat;
@@ -498,8 +498,7 @@ public class Utils {
      * @return format string for 12 hours mode time
      */
     public static CharSequence get12ModeFormat(int amPmFontSize) {
-        String skeleton = "hma";
-        String pattern = DateFormat.getBestDateTimePattern(Locale.getDefault(), skeleton);
+        String pattern = "h:mm a";
         // Remove the am/pm
         if (amPmFontSize <= 0) {
             pattern.replaceAll("a", "").trim();
@@ -522,8 +521,7 @@ public class Utils {
     }
 
     public static CharSequence get24ModeFormat() {
-        String skeleton = "Hm";
-        return DateFormat.getBestDateTimePattern(Locale.getDefault(), skeleton);
+        return "H:mm";
     }
 
     public static CityObj[] loadCitiesFromXml(Context c) {

@@ -38,7 +38,7 @@
             android:hand_hour="@drawable/clock_analog_hour_mipmap"
             android:hand_minute="@drawable/clock_analog_minute_mipmap"
             android:layout_marginBottom="@dimen/bottom_text_spacing_analog" />
-        <TextClock
+        <com.klinker.deskclock.widget.TextClock
             android:id="@+id/digital_clock"
             android:format12Hour="@string/main_clock_12_hours_format"
             android:format24Hour="@string/clock_24_hours_format"
