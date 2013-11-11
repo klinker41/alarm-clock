@@ -24,7 +24,7 @@
     android:background="?android:attr/selectableItemBackground"
     >
 
-    <TextClock
+    <com.klinker.deskclock.widget.TextClock
         android:id="@+id/the_clock"
         android:format12Hour="@string/main_widget_12_hours_format"
         android:format24Hour="@string/clock_24_hours_format"
@@ -41,7 +41,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center">
-        <TextClock android:id="@+id/date"
+        <com.klinker.deskclock.widget.TextClock android:id="@+id/date"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textColor="@color/clock_white"

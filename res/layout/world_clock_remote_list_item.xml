@@ -30,7 +30,7 @@
             android:layout_weight="1"
             android:orientation="vertical" >
 
-            <TextClock
+            <com.klinker.deskclock.widget.TextClock
                 android:id="@+id/left_clock"
                 android:format12Hour="@string/wc_widget_12_hours_format"
                 android:format24Hour="@string/clock_24_hours_format"
@@ -75,7 +75,7 @@
             android:layout_weight="1"
             android:orientation="vertical" >
 
-            <TextClock
+            <com.klinker.deskclock.widget.TextClock
                 android:id="@+id/right_clock"
                 android:format12Hour="@string/wc_widget_12_hours_format"
                 android:format24Hour="@string/clock_24_hours_format"

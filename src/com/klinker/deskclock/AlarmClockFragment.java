@@ -910,16 +910,38 @@ public class AlarmClockFragment extends DeskClockFragment implements
                                 // If this is the first child being animated, then after the
                                 // animation is complete, and animate in the added alarm (if one
                                 // exists).
-                                child.animate().withEndAction(new Runnable() {
+                                try {
+                                    child.animate().withEndAction(new Runnable() {
 
-                                    @Override
-                                    public void run() {
+                                        @Override
+                                        public void run() {
+                                            // If there was an added view, animate it in after
+                                            // the other views have animated.
+                                            if (addedView != null) {
+                                                addedView.animate().alpha(1.0f)
+                                                    .setDuration(ANIMATION_DURATION)
+                                                    .withEndAction(new Runnable() {
 
+                                                        @Override
+                                                        public void run() {
+                                                            // Re-enable the list after the add
+                                                            // animation is complete.
+                                                            list.setEnabled(true);
+                                                        }
 
-                                        // If there was an added view, animate it in after
-                                        // the other views have animated.
-                                        if (addedView != null) {
-                                            addedView.animate().alpha(1.0f)
+                                                    });
+                                            } else {
+                                                // Re-enable the list after animations are complete.
+                                                list.setEnabled(true);
+                                            }
+                                        }
+
+                                    });
+                                } catch (Throwable e) {
+                                    // If there was an added view, animate it in after
+                                    // the other views have animated.
+                                    if (addedView != null) {
+                                        addedView.animate().alpha(1.0f)
                                                 .setDuration(ANIMATION_DURATION)
                                                 .withEndAction(new Runnable() {
 
@@ -931,13 +953,12 @@ public class AlarmClockFragment extends DeskClockFragment implements
                                                     }
 
                                                 });
-                                        } else {
-                                            // Re-enable the list after animations are complete.
-                                            list.setEnabled(true);
-                                        }
+                                    } else {
+                                        // Re-enable the list after animations are complete.
+                                        list.setEnabled(true);
                                     }
+                                }
 
-                                });
                                 firstAnimation = false;
                             }
                         }

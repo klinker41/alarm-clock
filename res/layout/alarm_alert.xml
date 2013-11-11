@@ -41,7 +41,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
 
-        <TextClock
+        <com.klinker.deskclock.widget.TextClock
             android:id="@+id/digitalClock"
             android:format12Hour="@string/main_clock_12_hours_format"
             android:format24Hour="@string/clock_24_hours_format"
