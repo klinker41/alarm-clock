@@ -36,7 +36,7 @@ public final class AlarmNotifications {
     public static final String SYSTEM_ALARM_CHANGE_ACTION = "android.intent.action.ALARM_CHANGED";
 
     public static void broadcastNextAlarm(Context context, AlarmInstance instance)  {
-        String timeString = "E h:mm a";
+        String timeString = "";
         boolean showStatusIcon = false;
         if (instance != null) {
             timeString = AlarmUtils.getFormattedTime(context, instance.getAlarmTime());
