@@ -1,0 +1,3 @@
+- removed widget
+- switched notification to notificationCompat
+- made everything API level 14 compatible
