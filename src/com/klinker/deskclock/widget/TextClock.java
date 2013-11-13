@@ -211,6 +211,7 @@ public class TextClock extends TextView {
             mFormat24 = "k:mm";
         }
 
+        // TODO this should use the styleable object sent in and display the time zone based on defStyle, not just the default zone
         Calendar calendar = Calendar.getInstance(TimeZone.getTimeZone("GMT"),
                 Locale.getDefault());
         Date currentLocalTime = calendar.getTime();

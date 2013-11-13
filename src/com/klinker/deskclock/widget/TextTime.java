@@ -7,6 +7,7 @@ import android.content.Context;
 import android.content.res.TypedArray;
 import android.database.ContentObserver;
 import android.net.Uri;
+import android.os.Build;
 import android.os.Handler;
 import android.provider.Settings;
 import android.text.format.DateFormat;
@@ -25,7 +26,7 @@ import java.util.Calendar;
 public class TextTime extends TextView {
     public static final CharSequence DEFAULT_FORMAT_12_HOUR = "h:mm a";
 
-    public static final CharSequence DEFAULT_FORMAT_24_HOUR = "H:mm";
+    public static final CharSequence DEFAULT_FORMAT_24_HOUR = Build.VERSION.SDK_INT > Build.VERSION_CODES.JELLY_BEAN_MR1 ? "H:mm" : "k:mm";
 
     private CharSequence mFormat12;
     private CharSequence mFormat24;

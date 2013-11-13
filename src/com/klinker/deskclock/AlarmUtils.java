@@ -20,6 +20,7 @@ import android.app.Fragment;
 import android.app.FragmentManager;
 import android.app.FragmentTransaction;
 import android.content.Context;
+import android.os.Build;
 import android.text.format.DateFormat;
 import android.widget.Toast;
 
@@ -37,7 +38,7 @@ public class AlarmUtils {
     public static final String FRAG_TAG_TIME_PICKER = "time_dialog";
 
     public static String getFormattedTime(Context context, Calendar time) {
-        String skeleton = DateFormat.is24HourFormat(context) ? "E H:m" : "E h:mm a";
+        String skeleton = DateFormat.is24HourFormat(context) ? (Build.VERSION.SDK_INT > Build.VERSION_CODES.JELLY_BEAN_MR1) ? "E H:mm" : "E k:mm" : "E h:mm a";
         return (String) DateFormat.format(skeleton, time);
     }
 
