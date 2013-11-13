@@ -23,6 +23,7 @@ import android.content.Intent;
 import android.content.IntentFilter;
 import android.database.ContentObserver;
 import android.net.Uri;
+import android.os.Build;
 import android.os.Handler;
 import android.os.SystemClock;
 import android.provider.Settings;
@@ -106,7 +107,7 @@ public class TextClock extends TextView {
      * @see #getFormat24Hour()
      * @deprecated Let the system use locale-appropriate defaults instead.
      */
-    public static final CharSequence DEFAULT_FORMAT_24_HOUR = "H:mm";
+    public static final CharSequence DEFAULT_FORMAT_24_HOUR =  Build.VERSION.SDK_INT > Build.VERSION_CODES.JELLY_BEAN_MR1 ? "H:mm" : "k:mm";
 
     private CharSequence mFormat12;
     private CharSequence mFormat24;
@@ -203,7 +204,13 @@ public class TextClock extends TextView {
         super(context, attrs, defStyle);
 
         mFormat12 = "h:mm a";
-        mFormat24 = "H:mm";
+
+        if (Build.VERSION.SDK_INT > Build.VERSION_CODES.JELLY_BEAN_MR1) {
+            mFormat24 = "H:mm";
+        } else {
+            mFormat24 = "k:mm";
+        }
+
         Calendar calendar = Calendar.getInstance(TimeZone.getTimeZone("GMT"),
                 Locale.getDefault());
         Date currentLocalTime = calendar.getTime();
@@ -416,7 +423,11 @@ public class TextClock extends TextView {
         final boolean format24Requested = is24HourModeEnabled();
 
         if (format24Requested) {
-            mFormat = abc(mFormat24, mFormat12, "H:mm");
+            if (Build.VERSION.SDK_INT > Build.VERSION_CODES.JELLY_BEAN_MR1) {
+                mFormat = abc(mFormat24, mFormat12, "H:mm");
+            } else {
+                mFormat = abc(mFormat24, mFormat12, "k:mm");
+            }
         } else {
             mFormat = abc(mFormat12, mFormat24, "h:mm a");
         }

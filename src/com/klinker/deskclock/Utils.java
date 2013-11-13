@@ -521,7 +521,11 @@ public class Utils {
     }
 
     public static CharSequence get24ModeFormat() {
-        return "H:mm";
+        if (Build.VERSION.SDK_INT > Build.VERSION_CODES.JELLY_BEAN_MR1) {
+            return "H:mm";
+        } else {
+            return "k:mm";
+        }
     }
 
     public static CityObj[] loadCitiesFromXml(Context c) {
