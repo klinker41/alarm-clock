@@ -257,12 +257,12 @@ public class CitiesActivity extends Activity implements OnCheckedChangeListener,
                 }
             }
 
-            mPattern24 = "h:m";
+            mPattern24 = "kk:mm";
 
             // There's an RTL layout bug that causes jank when fast-scrolling through
             // the list in 12-hour mode in an RTL locale. We can work around this by
             // ensuring the strings are the same length by using "hh" instead of "h".
-            String pattern12 = "h:m a";
+            String pattern12 = "h:mm a";
             mPattern12 = pattern12;
 
             sortCities(mSortType);
