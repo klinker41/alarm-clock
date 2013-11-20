@@ -1073,7 +1073,7 @@ public class AlarmClockFragment extends DeskClockFragment implements
                 @Override
                 public void onClick(View view) {
                     mSelectedAlarm = itemHolder.alarm;
-                    AlarmUtils.showTimeEditDialog(getChildFragmentManager(),
+                    AlarmUtils.showTimeEditDialog(getFragmentManager(),
                             alarm, AlarmClockFragment.this
                             , DateFormat.is24HourFormat(getActivity()));
                     expandAlarm(itemHolder, true);
