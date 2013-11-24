@@ -43,7 +43,8 @@
             android:src="@drawable/ic_globe"
             style="@style/button"
             android:onClick="clockButtonsOnClick"
-            android:background="@drawable/main_button_normal" />
+            android:background="@drawable/main_button_normal"
+            android:visibility="invisible"/>
         <ImageButton
             android:id="@+id/menu_button"
             android:contentDescription="@string/button_menu"
