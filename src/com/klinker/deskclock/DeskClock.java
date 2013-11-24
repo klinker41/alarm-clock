@@ -74,8 +74,8 @@ public class DeskClock extends Activity implements LabelDialogFragment.TimerLabe
     private ActionBar mActionBar;
     private Tab mAlarmTab;
     private Tab mClockTab;
-    private Tab mTimerTab;
-    private Tab mStopwatchTab;
+//    private Tab mTimerTab;
+//    private Tab mStopwatchTab;
     private Menu mMenu;
 
     private ViewPager mViewPager;
@@ -142,15 +142,15 @@ public class DeskClock extends Activity implements LabelDialogFragment.TimerLabe
             mClockTab.setContentDescription(R.string.menu_clock);
             mTabsAdapter.addTab(mClockTab, ClockFragment.class, CLOCK_TAB_INDEX);
 
-            mTimerTab = mActionBar.newTab();
-            mTimerTab.setIcon(R.drawable.timer_tab);
-            mTimerTab.setContentDescription(R.string.menu_timer);
-            mTabsAdapter.addTab(mTimerTab, TimerFragment.class, TIMER_TAB_INDEX);
-
-            mStopwatchTab = mActionBar.newTab();
-            mStopwatchTab.setIcon(R.drawable.stopwatch_tab);
-            mStopwatchTab.setContentDescription(R.string.menu_stopwatch);
-            mTabsAdapter.addTab(mStopwatchTab, StopwatchFragment.class,STOPWATCH_TAB_INDEX);
+//            mTimerTab = mActionBar.newTab();
+//            mTimerTab.setIcon(R.drawable.timer_tab);
+//            mTimerTab.setContentDescription(R.string.menu_timer);
+//            mTabsAdapter.addTab(mTimerTab, TimerFragment.class, TIMER_TAB_INDEX);
+//
+//            mStopwatchTab = mActionBar.newTab();
+//            mStopwatchTab.setIcon(R.drawable.stopwatch_tab);
+//            mStopwatchTab.setContentDescription(R.string.menu_stopwatch);
+//            mTabsAdapter.addTab(mStopwatchTab, StopwatchFragment.class,STOPWATCH_TAB_INDEX);
 
             mActionBar.setSelectedNavigationItem(selectedIndex);
             mTabsAdapter.notifySelectedPage(selectedIndex);
