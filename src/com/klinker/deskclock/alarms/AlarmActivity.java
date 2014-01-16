@@ -111,6 +111,7 @@ public class AlarmActivity extends Activity {
         }
     }
 
+    public boolean attributeActivity = false;
     private AlarmInstance mInstance;
     private int mVolumeBehavior;
     private GlowPadView mGlowPadView;
@@ -123,8 +124,10 @@ public class AlarmActivity extends Activity {
                 snooze();
             } else if (action.equals(ALARM_DISMISS_ACTION)) {
                 dismiss();
+                showAttribute();
             } else if (action.equals(AlarmService.ALARM_DONE_ACTION)) {
                 finish();
+                showAttribute();
             } else {
                 Log.i("Unknown broadcast in AlarmActivity: " + action);
             }
@@ -143,58 +146,59 @@ public class AlarmActivity extends Activity {
     protected void onCreate(Bundle icicle) {
         super.onCreate(icicle);
 
-        long instanceId = AlarmInstance.getId(getIntent().getData());
-        mInstance = AlarmInstance.getInstance(this.getContentResolver(), instanceId);
-        if (mInstance != null) {
-            Log.v("Displaying alarm for instance: " + mInstance);
+        if (!attributeActivity) {
+            long instanceId = AlarmInstance.getId(getIntent().getData());
+            mInstance = AlarmInstance.getInstance(this.getContentResolver(), instanceId);
+            if (mInstance != null) {
+                Log.v("Displaying alarm for instance: " + mInstance);
+            } else {
+                // The alarm got deleted before the activity got created, so just finish()
+                Log.v("Error displaying alarm for intent: " + getIntent());
+                finish();
+                return;
+            }
+
+            // Get the volume/camera button behavior setting
+            final String vol =
+                    PreferenceManager.getDefaultSharedPreferences(this)
+                    .getString(SettingsActivity.KEY_VOLUME_BEHAVIOR,
+                            SettingsActivity.DEFAULT_VOLUME_BEHAVIOR);
+            mVolumeBehavior = Integer.parseInt(vol);
+
+            final Window win = getWindow();
+            win.addFlags(WindowManager.LayoutParams.FLAG_SHOW_WHEN_LOCKED |
+                    WindowManager.LayoutParams.FLAG_DISMISS_KEYGUARD |
+                    WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON |
+                    WindowManager.LayoutParams.FLAG_TURN_SCREEN_ON |
+                    WindowManager.LayoutParams.FLAG_ALLOW_LOCK_WHILE_SCREEN_ON);
+
+            // In order to allow tablets to freely rotate and phones to stick
+            // with "nosensor" (use default device orientation) we have to have
+            // the manifest start with an orientation of unspecified" and only limit
+            // to "nosensor" for phones. Otherwise we get behavior like in b/8728671
+            // where tablets start off in their default orientation and then are
+            // able to freely rotate.
+            if (!getResources().getBoolean(R.bool.config_rotateAlarmAlert)) {
+                setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_NOSENSOR);
+            }
+            updateLayout();
+
+            // Register to get the alarm done/snooze/dismiss intent.
+            IntentFilter filter = new IntentFilter(AlarmService.ALARM_DONE_ACTION);
+            filter.addAction(ALARM_SNOOZE_ACTION);
+            filter.addAction(ALARM_DISMISS_ACTION);
+            registerReceiver(mReceiver, filter);
         } else {
-            // The alarm got deleted before the activity got created, so just finish()
-            Log.v("Error displaying alarm for intent: " + getIntent());
-            finish();
-            return;
+            updateLayout();
         }
-
-        // Get the volume/camera button behavior setting
-        final String vol =
-                PreferenceManager.getDefaultSharedPreferences(this)
-                .getString(SettingsActivity.KEY_VOLUME_BEHAVIOR,
-                        SettingsActivity.DEFAULT_VOLUME_BEHAVIOR);
-        mVolumeBehavior = Integer.parseInt(vol);
-
-        final Window win = getWindow();
-        win.addFlags(WindowManager.LayoutParams.FLAG_SHOW_WHEN_LOCKED |
-                WindowManager.LayoutParams.FLAG_DISMISS_KEYGUARD |
-                WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON |
-                WindowManager.LayoutParams.FLAG_TURN_SCREEN_ON |
-                WindowManager.LayoutParams.FLAG_ALLOW_LOCK_WHILE_SCREEN_ON);
-
-        // In order to allow tablets to freely rotate and phones to stick
-        // with "nosensor" (use default device orientation) we have to have
-        // the manifest start with an orientation of unspecified" and only limit
-        // to "nosensor" for phones. Otherwise we get behavior like in b/8728671
-        // where tablets start off in their default orientation and then are
-        // able to freely rotate.
-        if (!getResources().getBoolean(R.bool.config_rotateAlarmAlert)) {
-            setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_NOSENSOR);
-        }
-        updateLayout();
-
-        // Register to get the alarm done/snooze/dismiss intent.
-        IntentFilter filter = new IntentFilter(AlarmService.ALARM_DONE_ACTION);
-        filter.addAction(ALARM_SNOOZE_ACTION);
-        filter.addAction(ALARM_DISMISS_ACTION);
-        registerReceiver(mReceiver, filter);
     }
 
-
-    private void setUpView() {
+    public void setUpView() {
         Calendar cal = Calendar.getInstance();
-        int day = (cal.get(Calendar.DAY_OF_MONTH) - 1) % 16;
-        final String titleText = mInstance.getLabelOrDefault(this);
+        int day = (cal.get(Calendar.DAY_OF_MONTH) - 14) % 16;
         TextView tv = (TextView)findViewById(R.id.alertTitle);
         tv.setText(getResources().getStringArray(R.array.attributes)[day]);
         tv.setMovementMethod(new ScrollingMovementMethod());
-        super.setTitle(titleText);
         TextView attribute = (TextView) findViewById(R.id.attribute);
         attribute.setText(getResources().getStringArray(R.array.definitions)[day]);
 
@@ -202,7 +206,7 @@ public class AlarmActivity extends Activity {
         ((ImageView) findViewById(R.id.backgroundImage)).setImageResource(backgroundId);
     }
 
-    private void updateLayout() {
+    public void updateLayout() {
         final LayoutInflater inflater = LayoutInflater.from(this);
         final View view = inflater.inflate(R.layout.alarm_alert, null);
         view.setSystemUiVisibility(View.SYSTEM_UI_FLAG_LOW_PROFILE);
@@ -211,12 +215,17 @@ public class AlarmActivity extends Activity {
 
         // Setup GlowPadController
         mGlowPadView = (GlowPadView) findViewById(R.id.glow_pad_view);
-        mGlowPadView.setOnTriggerListener(glowPadController);
-        glowPadController.startPinger();
+        if (!attributeActivity) {
+            mGlowPadView.setOnTriggerListener(glowPadController);
+            glowPadController.startPinger();
+        } else {
+            mGlowPadView.setVisibility(View.GONE);
+        }
     }
 
     private void ping() {
-        mGlowPadView.ping();
+        if (!attributeActivity)
+            mGlowPadView.ping();
     }
 
     @Override
@@ -228,19 +237,26 @@ public class AlarmActivity extends Activity {
     @Override
     protected void onResume() {
         super.onResume();
-        glowPadController.startPinger();
+
+        if (!attributeActivity)
+            glowPadController.startPinger();
     }
 
     @Override
     protected void onPause() {
         super.onPause();
-        glowPadController.stopPinger();
+
+        if (!attributeActivity)
+            glowPadController.stopPinger();
     }
 
     @Override
     public void onDestroy() {
         super.onDestroy();
-        unregisterReceiver(mReceiver);
+
+        try {
+            unregisterReceiver(mReceiver);
+        } catch (Exception e) { }
     }
 
     @Override
@@ -279,5 +295,10 @@ public class AlarmActivity extends Activity {
                 break;
         }
         return super.dispatchKeyEvent(event);
+    }
+
+    private void showAttribute() {
+        startActivity(new Intent(this, AttributeActivity.class));
+        overridePendingTransition(0, 0);
     }
 }

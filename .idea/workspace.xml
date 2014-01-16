@@ -15,39 +15,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0ed8fe63-fdbd-4c47-a286-716df638d26d" name="Default" comment="more fixes for clock formatting&#10;">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-nodpi/wallpaper_0.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-nodpi/wallpaper_1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-nodpi/wallpaper_10.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-nodpi/wallpaper_11.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-nodpi/wallpaper_12.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-nodpi/wallpaper_13.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-nodpi/wallpaper_14.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-nodpi/wallpaper_15.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-nodpi/wallpaper_2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-nodpi/wallpaper_3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-nodpi/wallpaper_4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-nodpi/wallpaper_5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-nodpi/wallpaper_6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-nodpi/wallpaper_7.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-nodpi/wallpaper_8.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-nodpi/wallpaper_9.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.name" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/android_support_v13.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/values-v19/styles.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/klinker/deskclock/alarms/AttributeActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/klinker/deskclock/alarms/AlarmActivity.java" afterPath="$PROJECT_DIR$/src/com/klinker/deskclock/alarms/AlarmActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidManifest.xml" afterPath="$PROJECT_DIR$/AndroidManifest.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/alarm_alert.xml" afterPath="$PROJECT_DIR$/res/layout/alarm_alert.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values/array.xml" afterPath="$PROJECT_DIR$/res/values/array.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../libraries/datetimepicker/project.properties" afterPath="$PROJECT_DIR$/../libraries/datetimepicker/project.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values/strings.xml" afterPath="$PROJECT_DIR$/res/values/strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="alarm-clock.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -120,10 +93,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AlarmActivity.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="AlarmActivity.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/klinker/deskclock/alarms/AlarmActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="199" column="0" selection-start="7551" selection-end="7551" vertical-scroll-proportion="0.0" vertical-offset="2465" max-vertical-offset="4182">
+            <state line="196" column="46" selection-start="7379" selection-end="7379" vertical-scroll-proportion="0.2905983" vertical-offset="2907" max-vertical-offset="4981">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AttributeActivity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/klinker/deskclock/alarms/AttributeActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="25" selection-start="64" selection-end="64" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="391">
               <folding />
             </state>
           </provider>
@@ -132,8 +116,18 @@
       <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="77" column="47" selection-start="3487" selection-end="3494" vertical-scroll-proportion="-6.0" vertical-offset="1153" max-vertical-offset="3672">
-              <folding />
+            <state line="84" column="0" selection-start="3869" selection-end="3869" vertical-scroll-proportion="-8.615385" vertical-offset="1204" max-vertical-offset="3808">
+              <folding>
+                <element signature="e#1002#1021#0" expanded="true" />
+                <element signature="e#1418#1437#0" expanded="true" />
+                <element signature="e#2046#2065#0" expanded="true" />
+                <element signature="e#2692#2710#0" expanded="true" />
+                <element signature="e#3109#3140#0" expanded="true" />
+                <element signature="e#6501#6520#0" expanded="true" />
+                <element signature="e#7026#7056#0" expanded="true" />
+                <element signature="e#8137#8170#0" expanded="true" />
+                <element signature="e#9429#9461#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -156,10 +150,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="styles.xml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="styles.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/res/values-v19/styles.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="61" selection-start="299" selection-end="299" vertical-scroll-proportion="0.17206478" vertical-offset="0" max-vertical-offset="494">
+            <state line="5" column="61" selection-start="299" selection-end="299" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
               <folding />
             </state>
           </provider>
@@ -171,18 +165,18 @@
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="44" selection-start="1119" selection-end="1119" vertical-scroll-proportion="-11.56" vertical-offset="136" max-vertical-offset="1785">
+            <state line="75" column="43" selection-start="3387" selection-end="3387" vertical-scroll-proportion="4.52" vertical-offset="1388" max-vertical-offset="1836">
               <folding>
                 <element signature="e#1938#1963#0" expanded="true" />
                 <element signature="e#2007#2032#0" expanded="true" />
                 <element signature="e#2077#2104#0" expanded="true" />
-                <element signature="e#2500#2536#0" expanded="true" />
-                <element signature="e#2578#2609#0" expanded="true" />
-                <element signature="e#3544#3578#0" expanded="true" />
-                <element signature="e#4130#4174#0" expanded="true" />
-                <element signature="e#4206#4239#0" expanded="true" />
-                <element signature="e#4270#4302#0" expanded="true" />
-                <element signature="e#4412#4444#0" expanded="true" />
+                <element signature="e#2633#2669#0" expanded="true" />
+                <element signature="e#2711#2742#0" expanded="true" />
+                <element signature="e#3677#3711#0" expanded="true" />
+                <element signature="e#4263#4307#0" expanded="true" />
+                <element signature="e#4339#4372#0" expanded="true" />
+                <element signature="e#4403#4435#0" expanded="true" />
+                <element signature="e#4545#4577#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -206,7 +200,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/com/klinker/deskclock/provider/AlarmInstance.java" />
         <option value="$PROJECT_DIR$/src/com/klinker/deskclock/provider/ClockProvider.java" />
         <option value="$PROJECT_DIR$/src/com/klinker/deskclock/provider/DaysOfWeek.java" />
         <option value="$PROJECT_DIR$/src/com/klinker/deskclock/stopwatch/Stopwatches.java" />
@@ -222,7 +215,6 @@
         <option value="$PROJECT_DIR$/src/com/klinker/deskclock/widget/ActionableToastBar.java" />
         <option value="$PROJECT_DIR$/NOTES" />
         <option value="$PROJECT_DIR$/src/com/klinker/deskclock/AlarmTimelineView.java" />
-        <option value="$PROJECT_DIR$/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/src/com/klinker/deskclock/provider/ClockContract.java" />
         <option value="$PROJECT_DIR$/../libraries/datetimepicker/src/com/android/datetimepicker/time/TimePickerDialog.java" />
         <option value="$PROJECT_DIR$/../libraries/datetimepicker/res/values/colors.xml" />
@@ -254,9 +246,11 @@
         <option value="$PROJECT_DIR$/res/layout/clock_fragment.xml" />
         <option value="$PROJECT_DIR$/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/res/values/array.xml" />
-        <option value="$PROJECT_DIR$/res/layout/alarm_alert.xml" />
-        <option value="$PROJECT_DIR$/src/com/klinker/deskclock/alarms/AlarmActivity.java" />
         <option value="$PROJECT_DIR$/res/values-v19/styles.xml" />
+        <option value="$PROJECT_DIR$/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/res/layout/alarm_alert.xml" />
+        <option value="$PROJECT_DIR$/src/com/klinker/deskclock/alarms/AttributeActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/klinker/deskclock/alarms/AlarmActivity.java" />
       </list>
     </option>
   </component>
@@ -324,7 +318,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="deskclock" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -338,11 +336,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
+              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="values" />
+              <option name="myItemId" value="deskclock" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="alarms" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -579,7 +581,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32637364" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.42857143" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.42857143" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -616,11 +618,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/klinker/deskclock/widget/ICU.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="19" selection-start="783" selection-end="783" vertical-scroll-proportion="-0.051759835" vertical-offset="178" max-vertical-offset="3825" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/klinker/deskclock/widget/LocaleData.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="29" column="19" selection-start="1059" selection-end="1059" vertical-scroll-proportion="-0.051759835" vertical-offset="246" max-vertical-offset="3162" />
@@ -822,7 +819,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/klinker/deskclock/AlarmInitReceiver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="13" selection-start="1095" selection-end="1095" vertical-scroll-proportion="-0.048076924" vertical-offset="127" max-vertical-offset="1190" />
+        <state line="31" column="13" selection-start="1095" selection-end="1095" vertical-scroll-proportion="-0.048076924" vertical-offset="127" max-vertical-offset="1190">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/klinker/deskclock/AlarmUtils.java">
@@ -834,7 +833,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/klinker/deskclock/AlarmListeners.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="13" selection-start="709" selection-end="709" vertical-scroll-proportion="0.22884615" vertical-offset="0" max-vertical-offset="520" />
+        <state line="21" column="13" selection-start="709" selection-end="709" vertical-scroll-proportion="0.22884615" vertical-offset="0" max-vertical-offset="520">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/alarm_alert_fullscreen.xml">
@@ -868,41 +869,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/alarm_alert.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="44" selection-start="1119" selection-end="1119" vertical-scroll-proportion="-11.56" vertical-offset="136" max-vertical-offset="1785">
-          <folding>
-            <element signature="e#1938#1963#0" expanded="true" />
-            <element signature="e#2007#2032#0" expanded="true" />
-            <element signature="e#2077#2104#0" expanded="true" />
-            <element signature="e#2500#2536#0" expanded="true" />
-            <element signature="e#2578#2609#0" expanded="true" />
-            <element signature="e#3544#3578#0" expanded="true" />
-            <element signature="e#4130#4174#0" expanded="true" />
-            <element signature="e#4206#4239#0" expanded="true" />
-            <element signature="e#4270#4302#0" expanded="true" />
-            <element signature="e#4412#4444#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/klinker/deskclock/alarms/AlarmActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="199" column="0" selection-start="7551" selection-end="7551" vertical-scroll-proportion="0.0" vertical-offset="2465" max-vertical-offset="4182">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="77" column="47" selection-start="3487" selection-end="3494" vertical-scroll-proportion="-6.0" vertical-offset="1153" max-vertical-offset="3672">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/res/values/styles.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="99" column="4" selection-start="5040" selection-end="5234" vertical-scroll-proportion="-6.0" vertical-offset="1527" max-vertical-offset="5746">
@@ -912,8 +878,62 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/res/values-v19/styles.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="61" selection-start="299" selection-end="299" vertical-scroll-proportion="0.17206478" vertical-offset="0" max-vertical-offset="494">
+        <state line="5" column="61" selection-start="299" selection-end="299" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="84" column="0" selection-start="3869" selection-end="3869" vertical-scroll-proportion="-8.615385" vertical-offset="1204" max-vertical-offset="3808">
+          <folding>
+            <element signature="e#1002#1021#0" expanded="true" />
+            <element signature="e#1418#1437#0" expanded="true" />
+            <element signature="e#2046#2065#0" expanded="true" />
+            <element signature="e#2692#2710#0" expanded="true" />
+            <element signature="e#3109#3140#0" expanded="true" />
+            <element signature="e#6501#6520#0" expanded="true" />
+            <element signature="e#7026#7056#0" expanded="true" />
+            <element signature="e#8137#8170#0" expanded="true" />
+            <element signature="e#9429#9461#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/klinker/deskclock/alarms/AttributeActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="25" selection-start="64" selection-end="64" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="391">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/alarm_alert.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="75" column="43" selection-start="3387" selection-end="3387" vertical-scroll-proportion="4.52" vertical-offset="1388" max-vertical-offset="1836">
+          <folding>
+            <element signature="e#1938#1963#0" expanded="true" />
+            <element signature="e#2007#2032#0" expanded="true" />
+            <element signature="e#2077#2104#0" expanded="true" />
+            <element signature="e#2633#2669#0" expanded="true" />
+            <element signature="e#2711#2742#0" expanded="true" />
+            <element signature="e#3677#3711#0" expanded="true" />
+            <element signature="e#4263#4307#0" expanded="true" />
+            <element signature="e#4339#4372#0" expanded="true" />
+            <element signature="e#4403#4435#0" expanded="true" />
+            <element signature="e#4545#4577#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/klinker/deskclock/alarms/AlarmActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="196" column="46" selection-start="7379" selection-end="7379" vertical-scroll-proportion="0.2905983" vertical-offset="2907" max-vertical-offset="4981">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

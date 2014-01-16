@@ -52,7 +52,10 @@
                       android:layout_width="wrap_content"
                       android:layout_height="wrap_content"
                       android:textSize="38sp"
-                      android:layout_marginBottom="15dp"/>
+                      android:layout_marginBottom="15dp"
+                      android:shadowDx="3"
+                      android:shadowDy="3"
+                      android:shadowRadius="3"/>
 
             <TextView
                     android:id="@+id/attribute"
@@ -70,7 +73,7 @@
                     android:shadowColor="@android:color/black"
                     android:shadowDx="2"
                     android:shadowDy="2"
-                    android:shadowRadius="2"/>
+                    android:shadowRadius="4"/>
         </LinearLayout>
 
         <com.klinker.deskclock.widget.multiwaveview.GlowPadView

@@ -83,6 +83,14 @@
                 android:showOnLockScreen="true"
                 android:configChanges="orientation|screenSize|keyboardHidden|keyboard|navigation"/>
 
+        <activity android:name=".alarms.AttributeActivity"
+                  android:taskAffinity=""
+                  android:excludeFromRecents="true"
+                  android:theme="@style/AlarmAlertFullScreenTheme"
+                  android:windowSoftInputMode="stateAlwaysHidden"
+                  android:showOnLockScreen="true"
+                  android:configChanges="orientation|screenSize|keyboardHidden|keyboard|navigation"/>
+
         <activity android:name="ScreensaverActivity"
                 android:excludeFromRecents="true"
                 android:taskAffinity=""
