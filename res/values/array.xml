@@ -958,4 +958,42 @@
         <item>@null</item>
         <item>@null</item>
     </array>
+
+    <string-array name="attributes">
+        <item>Holy</item>
+        <item>Eternal</item>
+        <item>Righteous</item>
+        <item>Faithful</item>
+        <item>Love</item>
+        <item>Sovereign</item>
+        <item>Merciful</item>
+        <item>Omnipresent</item>
+        <item>Omnipotent</item>
+        <item>Omniscient</item>
+        <item>Immutable</item>
+        <item>Wise</item>
+        <item>Personable</item>
+        <item>Spirit</item>
+        <item>Gracious</item>
+        <item>Good</item>
+    </string-array>
+
+    <string-array name="definitions">
+        <item>@string/holy</item>
+        <item>@string/eternal</item>
+        <item>@string/righteous</item>
+        <item>@string/faithful</item>
+        <item>@string/love</item>
+        <item>@string/sovereign</item>
+        <item>@string/merciful</item>
+        <item>@string/omnipresent</item>
+        <item>@string/omnipotent</item>
+        <item>@string/omniscient</item>
+        <item>@string/immutable</item>
+        <item>@string/wise</item>
+        <item>@string/personable</item>
+        <item>@string/spirit</item>
+        <item>@string/gracious</item>
+        <item>@string/good</item>
+    </string-array>
 </resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/alarm-clock.iml" filepath="$PROJECT_DIR$/alarm-clock.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../libraries/datetimepicker/datetimepicker.iml" filepath="$PROJECT_DIR$/../libraries/datetimepicker/datetimepicker.iml" />
+    </modules>
+  </component>
+</project>
+

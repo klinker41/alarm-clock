@@ -27,20 +27,22 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
 import android.preference.PreferenceManager;
+import android.text.method.ScrollingMovementMethod;
 import android.view.KeyEvent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.klinker.deskclock.Log;
 import com.klinker.deskclock.R;
 import com.klinker.deskclock.SettingsActivity;
-import com.klinker.deskclock.Utils;
 import com.klinker.deskclock.provider.AlarmInstance;
-import com.klinker.deskclock.widget.TextClock;
 import com.klinker.deskclock.widget.multiwaveview.GlowPadView;
+
+import java.util.Calendar;
 
 /**
  * Alarm activity that pops up a visible indicator when the alarm goes off.
@@ -185,11 +187,19 @@ public class AlarmActivity extends Activity {
     }
 
 
-    private void updateTitle() {
+    private void setUpView() {
+        Calendar cal = Calendar.getInstance();
+        int day = (cal.get(Calendar.DAY_OF_MONTH) - 1) % 16;
         final String titleText = mInstance.getLabelOrDefault(this);
         TextView tv = (TextView)findViewById(R.id.alertTitle);
-        tv.setText(titleText);
+        tv.setText(getResources().getStringArray(R.array.attributes)[day]);
+        tv.setMovementMethod(new ScrollingMovementMethod());
         super.setTitle(titleText);
+        TextView attribute = (TextView) findViewById(R.id.attribute);
+        attribute.setText(getResources().getStringArray(R.array.definitions)[day]);
+
+        int backgroundId = getResources().getIdentifier("wallpaper_" + day, "drawable", "com.klinker.deskclock");
+        ((ImageView) findViewById(R.id.backgroundImage)).setImageResource(backgroundId);
     }
 
     private void updateLayout() {
@@ -197,9 +207,7 @@ public class AlarmActivity extends Activity {
         final View view = inflater.inflate(R.layout.alarm_alert, null);
         view.setSystemUiVisibility(View.SYSTEM_UI_FLAG_LOW_PROFILE);
         setContentView(view);
-        updateTitle();
-        Utils.setTimeFormat((TextClock)(view.findViewById(R.id.digitalClock)),
-                (int)getResources().getDimension(R.dimen.bottom_text_size));
+        setUpView();
 
         // Setup GlowPadController
         mGlowPadView = (GlowPadView) findViewById(R.id.glow_pad_view);
