@@ -9,7 +9,7 @@ Main difference as of now is compatibility back to API 14 instead of 19.
 
 ## License
 
-    Copyright 2013 Jacob Klinker
+    Copyright 2014 Jacob Klinker
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
