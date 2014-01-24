@@ -144,6 +144,9 @@ public class AlarmActivity extends Activity {
 
     @Override
     protected void onCreate(Bundle icicle) {
+        getWindow().addFlags(WindowManager.LayoutParams.FLAG_DISMISS_KEYGUARD |
+                WindowManager.LayoutParams.FLAG_SHOW_WHEN_LOCKED);
+
         super.onCreate(icicle);
 
         if (!attributeActivity) {
