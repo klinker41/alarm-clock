@@ -18,7 +18,7 @@
     <!-- -->
     <!-- Label shown on launcher icon -->
     <!-- Label for the this application displayed on-screen when this application must be represented to the user. -->
-    <string name="app_label">Clock</string>
+    <string name="app_label">Inspire</string>
 
     <!-- Title for AlarmClock activity -->
     <!-- Label for the Alarms activity displayed on-screen when that activity must be represented to the user. -->
