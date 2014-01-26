@@ -12,12 +12,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0ed8fe63-fdbd-4c47-a286-716df638d26d" name="Default" comment="more fixes for clock formatting&#10;">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/klinker/deskclock/DeskClock.java" afterPath="$PROJECT_DIR$/src/com/klinker/deskclock/DeskClock.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/klinker/deskclock/HandleApiCalls.java" afterPath="$PROJECT_DIR$/src/com/klinker/deskclock/HandleApiCalls.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/klinker/deskclock/stopwatch/StopwatchFragment.java" afterPath="$PROJECT_DIR$/src/com/klinker/deskclock/stopwatch/StopwatchFragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/klinker/deskclock/stopwatch/StopwatchService.java" afterPath="$PROJECT_DIR$/src/com/klinker/deskclock/stopwatch/StopwatchService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/klinker/deskclock/timer/TimerFragment.java" afterPath="$PROJECT_DIR$/src/com/klinker/deskclock/timer/TimerFragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/klinker/deskclock/timer/TimerReceiver.java" afterPath="$PROJECT_DIR$/src/com/klinker/deskclock/timer/TimerReceiver.java" />
+      <change type="MOVED" beforePath="C:\Users\Jacob\workspace\alarm-clock\Screenshots\883aca2f-2439-417b-8ca6-3228521a395c.png" afterPath="$PROJECT_DIR$/Promo/883aca2f-2439-417b-8ca6-3228521a395c.png" />
+      <change type="MOVED" beforePath="C:\Users\Jacob\workspace\alarm-clock\Screenshots\Screenshot_2013-11-12-12-09-08.png" afterPath="$PROJECT_DIR$/Promo/Screenshot_2013-11-12-12-09-08.png" />
+      <change type="MOVED" beforePath="C:\Users\Jacob\workspace\alarm-clock\Screenshots\Screenshot_2013-11-12-12-09-12.png" afterPath="$PROJECT_DIR$/Promo/Screenshot_2013-11-12-12-09-12.png" />
+      <change type="MOVED" beforePath="C:\Users\Jacob\workspace\alarm-clock\Screenshots\Screenshot_2013-11-12-12-09-22.png" afterPath="$PROJECT_DIR$/Promo/Screenshot_2013-11-12-12-09-22.png" />
+      <change type="MOVED" beforePath="C:\Users\Jacob\workspace\alarm-clock\Screenshots\Screenshot_2013-11-12-12-09-31.png" afterPath="$PROJECT_DIR$/Promo/Screenshot_2013-11-12-12-09-31.png" />
+      <change type="MOVED" beforePath="C:\Users\Jacob\workspace\alarm-clock\Screenshots\Screenshot_2014-01-16-16-09-10.png" afterPath="$PROJECT_DIR$/Promo/Screenshot_2014-01-16-16-09-10.png" />
+      <change type="MOVED" beforePath="C:\Users\Jacob\workspace\alarm-clock\Screenshots\Screenshot_2014-01-16-16-11-18.png" afterPath="$PROJECT_DIR$/Promo/Screenshot_2014-01-16-16-11-18.png" />
+      <change type="MOVED" beforePath="C:\Users\Jacob\workspace\alarm-clock\Screenshots\Screenshot_2014-01-16-16-13-07.png" afterPath="$PROJECT_DIR$/Promo/Screenshot_2014-01-16-16-13-07.png" />
+      <change type="MOVED" beforePath="C:\Users\Jacob\workspace\alarm-clock\Screenshots\ed2faadc-0c98-41af-8391-f16e6e706ff4.png" afterPath="$PROJECT_DIR$/Promo/ed2faadc-0c98-41af-8391-f16e6e706ff4.png" />
+      <change type="MOVED" beforePath="C:\Users\Jacob\workspace\alarm-clock\Screenshots\f18f16a2-bfe8-44e8-9619-1e49e7ec3454.png" afterPath="$PROJECT_DIR$/Promo/f18f16a2-bfe8-44e8-9619-1e49e7ec3454.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidManifest.xml" afterPath="$PROJECT_DIR$/AndroidManifest.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="alarm-clock.iws" />
@@ -85,7 +90,7 @@
       <file leaf-file-name="DeskClock.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/klinker/deskclock/DeskClock.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="486" column="51" selection-start="17527" selection-end="17527" vertical-scroll-proportion="0.0" vertical-offset="7213" max-vertical-offset="9095">
+            <state line="486" column="51" selection-start="17527" selection-end="17527" vertical-scroll-proportion="0.0" vertical-offset="8262" max-vertical-offset="9979">
               <folding />
             </state>
           </provider>
@@ -94,7 +99,7 @@
       <file leaf-file-name="HandleApiCalls.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/klinker/deskclock/HandleApiCalls.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="204" column="60" selection-start="8121" selection-end="8121" vertical-scroll-proportion="0.0" vertical-offset="2491" max-vertical-offset="4182">
+            <state line="204" column="60" selection-start="8121" selection-end="8121" vertical-scroll-proportion="0.0" vertical-offset="3468" max-vertical-offset="4981">
               <folding />
             </state>
           </provider>
@@ -103,7 +108,7 @@
       <file leaf-file-name="StopwatchService.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/klinker/deskclock/stopwatch/StopwatchService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="148" column="55" selection-start="6002" selection-end="6002" vertical-scroll-proportion="0.0" vertical-offset="1896" max-vertical-offset="7463">
+            <state line="148" column="55" selection-start="6002" selection-end="6002" vertical-scroll-proportion="0.0" vertical-offset="2516" max-vertical-offset="7752">
               <folding />
             </state>
           </provider>
@@ -112,16 +117,25 @@
       <file leaf-file-name="TimerFragment.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/klinker/deskclock/timer/TimerFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="620" column="12" selection-start="24010" selection-end="24010" vertical-scroll-proportion="0.0" vertical-offset="9087" max-vertical-offset="16711">
+            <state line="620" column="12" selection-start="24010" selection-end="24010" vertical-scroll-proportion="0.0" vertical-offset="10540" max-vertical-offset="18071">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TimerReceiver.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="TimerReceiver.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/klinker/deskclock/timer/TimerReceiver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="306" column="19" selection-start="13231" selection-end="13231" vertical-scroll-proportion="0.6" vertical-offset="4361" max-vertical-offset="7701">
+            <state line="300" column="99" selection-start="12932" selection-end="12932" vertical-scroll-proportion="0.0" vertical-offset="5100" max-vertical-offset="7701">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="147" column="18" selection-start="6674" selection-end="6674" vertical-scroll-proportion="3.664223" vertical-offset="0" max-vertical-offset="2890">
               <folding />
             </state>
           </provider>
@@ -130,7 +144,7 @@
       <file leaf-file-name="StopwatchFragment.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/klinker/deskclock/stopwatch/StopwatchFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="518" column="12" selection-start="20916" selection-end="20916" vertical-scroll-proportion="0.0" vertical-offset="7676" max-vertical-offset="16694">
+            <state line="518" column="12" selection-start="20916" selection-end="20916" vertical-scroll-proportion="0.0" vertical-offset="8806" max-vertical-offset="18003">
               <folding />
             </state>
           </provider>
@@ -192,7 +206,6 @@
         <option value="$PROJECT_DIR$/res/layout/clock_fragment.xml" />
         <option value="$PROJECT_DIR$/res/values/array.xml" />
         <option value="$PROJECT_DIR$/res/values-v19/styles.xml" />
-        <option value="$PROJECT_DIR$/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/res/layout/alarm_alert.xml" />
         <option value="$PROJECT_DIR$/src/com/klinker/deskclock/alarms/AttributeActivity.java" />
         <option value="$PROJECT_DIR$/src/com/klinker/deskclock/alarms/AlarmActivity.java" />
@@ -205,6 +218,7 @@
         <option value="$PROJECT_DIR$/src/com/klinker/deskclock/stopwatch/StopwatchService.java" />
         <option value="$PROJECT_DIR$/src/com/klinker/deskclock/timer/TimerFragment.java" />
         <option value="$PROJECT_DIR$/src/com/klinker/deskclock/timer/TimerReceiver.java" />
+        <option value="$PROJECT_DIR$/AndroidManifest.xml" />
       </list>
     </option>
   </component>
@@ -243,8 +257,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -276,57 +288,11 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="deskclock" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="alarm-clock" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="alarm-clock" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="deskclock" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="timer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="alarm-clock" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="alarm-clock" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="deskclock" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stopwatch" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -387,6 +353,19 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -412,19 +391,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -486,9 +452,9 @@
       <option name="MODE" value="default_activity" />
       <option name="DEPLOY" value="true" />
       <option name="ARTIFACT_NAME" value="" />
-      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="TARGET_SELECTION_MODE" value="USB_DEVICE" />
       <option name="USE_LAST_SELECTED_DEVICE" value="false" />
-      <option name="PREFERRED_AVD" value="android40" />
+      <option name="PREFERRED_AVD" value="" />
       <option name="USE_COMMAND_LINE" value="true" />
       <option name="COMMAND_LINE" value="" />
       <option name="WIPE_USER_DATA" value="false" />
@@ -556,7 +522,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32637364" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.42747253" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2236842" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -757,12 +723,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/klinker/deskclock/AlarmUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="145" selection-start="1455" selection-end="1455" vertical-scroll-proportion="-1.8115385" vertical-offset="1163" max-vertical-offset="1683" />
+        <state line="40" column="145" selection-start="1455" selection-end="1455" vertical-scroll-proportion="-1.8115385" vertical-offset="1163" max-vertical-offset="1683">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/klinker/deskclock/AlarmListeners.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="13" selection-start="709" selection-end="709" vertical-scroll-proportion="0.22884615" vertical-offset="0" max-vertical-offset="520" />
+        <state line="21" column="13" selection-start="709" selection-end="709" vertical-scroll-proportion="0.22884615" vertical-offset="0" max-vertical-offset="520">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/alarm_alert_fullscreen.xml">
@@ -804,13 +774,6 @@
         <state line="12" column="13" selection-start="290" selection-end="290" vertical-scroll-proportion="0.41295546" vertical-offset="0" max-vertical-offset="494" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="84" column="0" selection-start="3869" selection-end="3869" vertical-scroll-proportion="0.4534413" vertical-offset="1204" max-vertical-offset="3808">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/res/values/array.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="981" column="26" selection-start="30474" selection-end="30474" vertical-scroll-proportion="0.75101215" vertical-offset="16306" max-vertical-offset="17085">
@@ -836,16 +799,12 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="18" selection-start="245" selection-end="245" vertical-scroll-proportion="0.3970276" vertical-offset="0" max-vertical-offset="493">
-          <folding />
-        </state>
+        <state line="11" column="18" selection-start="245" selection-end="245" vertical-scroll-proportion="0.3970276" vertical-offset="0" max-vertical-offset="493" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="14" selection-start="151" selection-end="151" vertical-scroll-proportion="0.4455645" vertical-offset="0" max-vertical-offset="496">
-          <folding />
-        </state>
+        <state line="13" column="14" selection-start="151" selection-end="151" vertical-scroll-proportion="0.4455645" vertical-offset="0" max-vertical-offset="496" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
@@ -892,7 +851,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/klinker/deskclock/timer/TimerReceiver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="306" column="19" selection-start="13231" selection-end="13231" vertical-scroll-proportion="0.6" vertical-offset="4361" max-vertical-offset="7701">
+        <state line="300" column="99" selection-start="12932" selection-end="12932" vertical-scroll-proportion="0.0" vertical-offset="5100" max-vertical-offset="7701">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="147" column="18" selection-start="6674" selection-end="6674" vertical-scroll-proportion="3.664223" vertical-offset="0" max-vertical-offset="2890">
           <folding />
         </state>
       </provider>
