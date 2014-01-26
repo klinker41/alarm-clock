@@ -160,7 +160,6 @@ public class HandleApiCalls extends Activity {
         // If no length is supplied , show the timer setup view
         if (!intent.hasExtra(EXTRA_LENGTH)) {
             startActivity(new Intent(this, DeskClock.class)
-                  .putExtra(DeskClock.SELECT_TAB_INTENT_EXTRA, DeskClock.TIMER_TAB_INDEX)
                   .putExtra(TimerFragment.GOTO_SETUP_VIEW, true));
             return;
         }
@@ -203,8 +202,7 @@ public class HandleApiCalls extends Activity {
         if (skipUi) {
             Utils.showInUseNotifications(this);
         } else {
-            startActivity(new Intent(this, DeskClock.class)
-                    .putExtra(DeskClock.SELECT_TAB_INTENT_EXTRA, DeskClock.TIMER_TAB_INDEX));
+            startActivity(new Intent(this, DeskClock.class));
         }
     }
 

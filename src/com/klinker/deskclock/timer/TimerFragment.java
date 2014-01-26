@@ -618,7 +618,7 @@ public class TimerFragment extends DeskClockFragment
 
     @Override
     public void onPageChanged(int page) {
-        if (page == DeskClock.TIMER_TAB_INDEX && mAdapter != null) {
+        if (mAdapter != null) {
             mAdapter.sort();
         }
     }

@@ -83,14 +83,10 @@ public class DeskClock extends Activity implements LabelDialogFragment.TimerLabe
 
     public static final int ALARM_TAB_INDEX = 0;
     public static final int CLOCK_TAB_INDEX = 1;
-    public static final int TIMER_TAB_INDEX = 2;
-    public static final int STOPWATCH_TAB_INDEX = 3;
     // Tabs indices are switched for right-to-left since there is no
     // native support for RTL in the ViewPager.
-    public static final int RTL_ALARM_TAB_INDEX = 3;
-    public static final int RTL_CLOCK_TAB_INDEX = 2;
-    public static final int RTL_TIMER_TAB_INDEX = 1;
-    public static final int RTL_STOPWATCH_TAB_INDEX = 0;
+    public static final int RTL_ALARM_TAB_INDEX = 1;
+    public static final int RTL_CLOCK_TAB_INDEX = 0;
 
     private int mSelectedTab;
 
@@ -487,12 +483,8 @@ public class DeskClock extends Activity implements LabelDialogFragment.TimerLabe
         private int getRtlPosition(int position) {
             if (isRtl()) {
                 switch (position) {
-                    case TIMER_TAB_INDEX:
-                        return RTL_TIMER_TAB_INDEX;
                     case CLOCK_TAB_INDEX:
                         return RTL_CLOCK_TAB_INDEX;
-                    case STOPWATCH_TAB_INDEX:
-                        return RTL_STOPWATCH_TAB_INDEX;
                     case ALARM_TAB_INDEX:
                         return RTL_ALARM_TAB_INDEX;
                     default:

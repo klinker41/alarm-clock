@@ -298,7 +298,6 @@ public class TimerReceiver extends BroadcastReceiver {
             final Context context, String title, String text, Long nextBroadcastTime) {
         Intent activityIntent = new Intent(context, DeskClock.class);
         activityIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-        activityIntent.putExtra(DeskClock.SELECT_TAB_INTENT_EXTRA, DeskClock.TIMER_TAB_INDEX);
         PendingIntent pendingActivityIntent = PendingIntent.getActivity(context, 0, activityIntent,
                 PendingIntent.FLAG_ONE_SHOT | PendingIntent.FLAG_UPDATE_CURRENT);
         showCollapsedNotification(context, title, text, Notification.PRIORITY_HIGH,
