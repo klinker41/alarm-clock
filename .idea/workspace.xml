@@ -11,20 +11,7 @@
     </shared>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0ed8fe63-fdbd-4c47-a286-716df638d26d" name="Default" comment="more fixes for clock formatting&#10;">
-      <change type="MOVED" beforePath="C:\Users\Jacob\workspace\alarm-clock\Screenshots\883aca2f-2439-417b-8ca6-3228521a395c.png" afterPath="$PROJECT_DIR$/Promo/883aca2f-2439-417b-8ca6-3228521a395c.png" />
-      <change type="MOVED" beforePath="C:\Users\Jacob\workspace\alarm-clock\Screenshots\Screenshot_2013-11-12-12-09-08.png" afterPath="$PROJECT_DIR$/Promo/Screenshot_2013-11-12-12-09-08.png" />
-      <change type="MOVED" beforePath="C:\Users\Jacob\workspace\alarm-clock\Screenshots\Screenshot_2013-11-12-12-09-12.png" afterPath="$PROJECT_DIR$/Promo/Screenshot_2013-11-12-12-09-12.png" />
-      <change type="MOVED" beforePath="C:\Users\Jacob\workspace\alarm-clock\Screenshots\Screenshot_2013-11-12-12-09-22.png" afterPath="$PROJECT_DIR$/Promo/Screenshot_2013-11-12-12-09-22.png" />
-      <change type="MOVED" beforePath="C:\Users\Jacob\workspace\alarm-clock\Screenshots\Screenshot_2013-11-12-12-09-31.png" afterPath="$PROJECT_DIR$/Promo/Screenshot_2013-11-12-12-09-31.png" />
-      <change type="MOVED" beforePath="C:\Users\Jacob\workspace\alarm-clock\Screenshots\Screenshot_2014-01-16-16-09-10.png" afterPath="$PROJECT_DIR$/Promo/Screenshot_2014-01-16-16-09-10.png" />
-      <change type="MOVED" beforePath="C:\Users\Jacob\workspace\alarm-clock\Screenshots\Screenshot_2014-01-16-16-11-18.png" afterPath="$PROJECT_DIR$/Promo/Screenshot_2014-01-16-16-11-18.png" />
-      <change type="MOVED" beforePath="C:\Users\Jacob\workspace\alarm-clock\Screenshots\Screenshot_2014-01-16-16-13-07.png" afterPath="$PROJECT_DIR$/Promo/Screenshot_2014-01-16-16-13-07.png" />
-      <change type="MOVED" beforePath="C:\Users\Jacob\workspace\alarm-clock\Screenshots\ed2faadc-0c98-41af-8391-f16e6e706ff4.png" afterPath="$PROJECT_DIR$/Promo/ed2faadc-0c98-41af-8391-f16e6e706ff4.png" />
-      <change type="MOVED" beforePath="C:\Users\Jacob\workspace\alarm-clock\Screenshots\f18f16a2-bfe8-44e8-9619-1e49e7ec3454.png" afterPath="$PROJECT_DIR$/Promo/f18f16a2-bfe8-44e8-9619-1e49e7ec3454.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidManifest.xml" afterPath="$PROJECT_DIR$/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="0ed8fe63-fdbd-4c47-a286-716df638d26d" name="Default" comment="more fixes for clock formatting&#10;" />
     <ignored path="alarm-clock.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -135,7 +122,7 @@
       <file leaf-file-name="AndroidManifest.xml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="147" column="18" selection-start="6674" selection-end="6674" vertical-scroll-proportion="3.664223" vertical-offset="0" max-vertical-offset="2890">
+            <state line="13" column="70" selection-start="805" selection-end="805" vertical-scroll-proportion="0.325" vertical-offset="0" max-vertical-offset="2890">
               <folding />
             </state>
           </provider>
@@ -522,7 +509,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32637364" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2236842" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22417583" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -858,7 +845,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="147" column="18" selection-start="6674" selection-end="6674" vertical-scroll-proportion="3.664223" vertical-offset="0" max-vertical-offset="2890">
+        <state line="13" column="70" selection-start="805" selection-end="805" vertical-scroll-proportion="0.325" vertical-offset="0" max-vertical-offset="2890">
           <folding />
         </state>
       </provider>
