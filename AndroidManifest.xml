@@ -1,9 +1,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
         package="com.klinker.deskclock"
-        android:versionCode="1" android:versionName="1.0.0">
-
-    <original-package android:name="com.android.alarmclock" />
-    <original-package android:name="com.android.deskclock" />
+        android:versionCode="2" android:versionName="1.0.0">
 
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
     <uses-permission android:name="android.permission.WAKE_LOCK"/>
@@ -16,9 +13,7 @@
     <uses-sdk android:minSdkVersion="14" android:targetSdkVersion="19" ></uses-sdk>
 
     <application android:label="@string/app_label"
-                 android:icon="@mipmap/ic_launcher_alarmclock"
-                 android:requiredForAllUsers="true"
-                 android:supportsRtl="true">
+                 android:icon="@mipmap/ic_launcher_alarmclock">
 
         <provider android:name=".provider.ClockProvider"
                 android:authorities="com.klinker.deskclock"
@@ -81,7 +76,8 @@
                 android:theme="@style/AlarmAlertFullScreenTheme"
                 android:windowSoftInputMode="stateAlwaysHidden"
                 android:showOnLockScreen="true"
-                android:configChanges="orientation|screenSize|keyboardHidden|keyboard|navigation"/>
+                android:configChanges="orientation|screenSize|keyboardHidden|keyboard|navigation"
+                android:exported="true"/>
 
         <activity android:name=".alarms.AttributeActivity"
                   android:taskAffinity=""
