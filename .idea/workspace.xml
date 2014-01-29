@@ -12,10 +12,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0ed8fe63-fdbd-4c47-a286-716df638d26d" name="Default" comment="more fixes for clock formatting&#10;">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/values-land-v19/styles.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Promo/~$ay Store Description.docx" afterPath="$PROJECT_DIR$/Promo/~$ay Store Description.docx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidManifest.xml" afterPath="$PROJECT_DIR$/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/alarm_alert.xml" afterPath="$PROJECT_DIR$/res/layout/alarm_alert.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout-land/alarm_alert.xml" afterPath="$PROJECT_DIR$/res/layout-land/alarm_alert.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -93,10 +89,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="24" selection-start="481" selection-end="481" vertical-scroll-proportion="-1.5955632" vertical-offset="1071" max-vertical-offset="2822">
+            <state line="83" column="51" selection-start="3838" selection-end="3838" vertical-scroll-proportion="0.0" vertical-offset="1071" max-vertical-offset="2822">
               <folding />
             </state>
           </provider>
@@ -120,25 +116,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="alarm_alert.xml" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="alarm_alert.xml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/res/layout-land/alarm_alert.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="36" selection-start="1154" selection-end="1154" vertical-scroll-proportion="-14.04" vertical-offset="142" max-vertical-offset="1921">
+            <state line="32" column="17" selection-start="1222" selection-end="1222" vertical-scroll-proportion="0.110516936" vertical-offset="482" max-vertical-offset="1938">
               <folding>
-                <element signature="e#1562#1587#0" expanded="true" />
-                <element signature="e#1616#1655#0" expanded="true" />
-                <element signature="e#1685#1724#0" expanded="true" />
-                <element signature="e#1947#1972#0" expanded="true" />
-                <element signature="e#2012#2037#0" expanded="true" />
-                <element signature="e#2078#2105#0" expanded="true" />
-                <element signature="e#2590#2626#0" expanded="true" />
-                <element signature="e#2664#2695#0" expanded="true" />
-                <element signature="e#3570#3603#0" expanded="true" />
-                <element signature="e#3637#3670#0" expanded="true" />
-                <element signature="e#4254#4298#0" expanded="true" />
-                <element signature="e#4322#4355#0" expanded="true" />
-                <element signature="e#4378#4410#0" expanded="true" />
-                <element signature="e#4496#4528#0" expanded="true" />
+                <element signature="e#1615#1640#0" expanded="true" />
+                <element signature="e#1669#1708#0" expanded="true" />
+                <element signature="e#1738#1777#0" expanded="true" />
+                <element signature="e#2000#2025#0" expanded="true" />
+                <element signature="e#2065#2090#0" expanded="true" />
+                <element signature="e#2131#2158#0" expanded="true" />
+                <element signature="e#2643#2679#0" expanded="true" />
+                <element signature="e#2717#2748#0" expanded="true" />
+                <element signature="e#3623#3656#0" expanded="true" />
+                <element signature="e#3690#3723#0" expanded="true" />
+                <element signature="e#4307#4351#0" expanded="true" />
+                <element signature="e#4375#4408#0" expanded="true" />
+                <element signature="e#4431#4463#0" expanded="true" />
+                <element signature="e#4549#4581#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -212,10 +208,10 @@
         <option value="$PROJECT_DIR$/src/com/klinker/deskclock/stopwatch/StopwatchService.java" />
         <option value="$PROJECT_DIR$/src/com/klinker/deskclock/timer/TimerFragment.java" />
         <option value="$PROJECT_DIR$/src/com/klinker/deskclock/timer/TimerReceiver.java" />
-        <option value="$PROJECT_DIR$/res/layout-land/alarm_alert.xml" />
         <option value="$PROJECT_DIR$/res/layout/alarm_alert.xml" />
         <option value="$PROJECT_DIR$/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/res/values-land-v19/styles.xml" />
+        <option value="$PROJECT_DIR$/res/layout-land/alarm_alert.xml" />
       </list>
     </option>
   </component>
@@ -637,7 +633,7 @@
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32889125" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32889125" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -653,7 +649,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17518637" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17537314" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32747254" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="SVN Repositories" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32929516" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -684,11 +680,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/klinker/deskclock/AnalogClock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="13" selection-start="1299" selection-end="1299" vertical-scroll-proportion="0.29813665" vertical-offset="26" max-vertical-offset="4437" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/klinker/deskclock/AsyncHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="25" column="19" selection-start="854" selection-end="854" vertical-scroll-proportion="0.3126294" vertical-offset="19" max-vertical-offset="527" />
@@ -935,41 +926,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout-land/alarm_alert.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="36" selection-start="1154" selection-end="1154" vertical-scroll-proportion="-14.04" vertical-offset="142" max-vertical-offset="1921">
-          <folding>
-            <element signature="e#1562#1587#0" expanded="true" />
-            <element signature="e#1616#1655#0" expanded="true" />
-            <element signature="e#1685#1724#0" expanded="true" />
-            <element signature="e#1947#1972#0" expanded="true" />
-            <element signature="e#2012#2037#0" expanded="true" />
-            <element signature="e#2078#2105#0" expanded="true" />
-            <element signature="e#2590#2626#0" expanded="true" />
-            <element signature="e#2664#2695#0" expanded="true" />
-            <element signature="e#3570#3603#0" expanded="true" />
-            <element signature="e#3637#3670#0" expanded="true" />
-            <element signature="e#4254#4298#0" expanded="true" />
-            <element signature="e#4322#4355#0" expanded="true" />
-            <element signature="e#4378#4410#0" expanded="true" />
-            <element signature="e#4496#4528#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/alarm_alert.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="12" selection-start="1645" selection-end="1645" vertical-scroll-proportion="-23.56" vertical-offset="91" max-vertical-offset="1836">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/res/values/styles.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="116" column="65" selection-start="5882" selection-end="5887" vertical-scroll-proportion="0.33182845" vertical-offset="1825" max-vertical-offset="5746">
@@ -993,9 +949,51 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="24" selection-start="481" selection-end="481" vertical-scroll-proportion="-1.5955632" vertical-offset="1071" max-vertical-offset="2822">
+        <state line="83" column="51" selection-start="3838" selection-end="3838" vertical-scroll-proportion="0.0" vertical-offset="1071" max-vertical-offset="2822">
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/alarm_alert.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="12" selection-start="1645" selection-end="1645" vertical-scroll-proportion="-23.56" vertical-offset="91" max-vertical-offset="1836">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/evolveSMS Log.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="48" selection-start="423" selection-end="423" vertical-scroll-proportion="0.087030716" vertical-offset="0" max-vertical-offset="850">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout-land/alarm_alert.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="17" selection-start="1222" selection-end="1222" vertical-scroll-proportion="0.110516936" vertical-offset="482" max-vertical-offset="1938">
+          <folding>
+            <element signature="e#1615#1640#0" expanded="true" />
+            <element signature="e#1669#1708#0" expanded="true" />
+            <element signature="e#1738#1777#0" expanded="true" />
+            <element signature="e#2000#2025#0" expanded="true" />
+            <element signature="e#2065#2090#0" expanded="true" />
+            <element signature="e#2131#2158#0" expanded="true" />
+            <element signature="e#2643#2679#0" expanded="true" />
+            <element signature="e#2717#2748#0" expanded="true" />
+            <element signature="e#3623#3656#0" expanded="true" />
+            <element signature="e#3690#3723#0" expanded="true" />
+            <element signature="e#4307#4351#0" expanded="true" />
+            <element signature="e#4375#4408#0" expanded="true" />
+            <element signature="e#4431#4463#0" expanded="true" />
+            <element signature="e#4549#4581#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
       </provider>
     </entry>
   </component>

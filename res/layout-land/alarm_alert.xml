@@ -38,6 +38,7 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/glow_pad_view"
         android:paddingBottom="@dimen/header_font_size"
         android:paddingLeft="@dimen/alarm_alert_clock_padding_left"
         android:paddingStart="@dimen/alarm_alert_clock_padding_left" >
