@@ -11,7 +11,14 @@
     </shared>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0ed8fe63-fdbd-4c47-a286-716df638d26d" name="Default" comment="more fixes for clock formatting&#10;" />
+    <list default="true" id="0ed8fe63-fdbd-4c47-a286-716df638d26d" name="Default" comment="more fixes for clock formatting&#10;">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/mipmap-hdpi/ic_launcher_alarmclock.png" afterPath="$PROJECT_DIR$/res/mipmap-hdpi/ic_launcher_alarmclock.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/mipmap-mdpi/ic_launcher_alarmclock.png" afterPath="$PROJECT_DIR$/res/mipmap-mdpi/ic_launcher_alarmclock.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/mipmap-xhdpi/ic_launcher_alarmclock.png" afterPath="$PROJECT_DIR$/res/mipmap-xhdpi/ic_launcher_alarmclock.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/mipmap-xxhdpi/ic_launcher_alarmclock.png" afterPath="$PROJECT_DIR$/res/mipmap-xxhdpi/ic_launcher_alarmclock.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/mipmap-xxxhdpi/ic_launcher_alarmclock.png" afterPath="$PROJECT_DIR$/res/mipmap-xxxhdpi/ic_launcher_alarmclock.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="alarm-clock.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -73,71 +80,7 @@
     <favorites_list name="alarm-clock" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="DeskClock.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/klinker/deskclock/DeskClock.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="486" column="51" selection-start="17527" selection-end="17527" vertical-scroll-proportion="0.0" vertical-offset="8262" max-vertical-offset="9979">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HandleApiCalls.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/klinker/deskclock/HandleApiCalls.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="204" column="60" selection-start="8121" selection-end="8121" vertical-scroll-proportion="0.0" vertical-offset="3468" max-vertical-offset="4981">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StopwatchService.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/klinker/deskclock/stopwatch/StopwatchService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="148" column="55" selection-start="6002" selection-end="6002" vertical-scroll-proportion="0.0" vertical-offset="2516" max-vertical-offset="7752">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TimerFragment.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/klinker/deskclock/timer/TimerFragment.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="620" column="12" selection-start="24010" selection-end="24010" vertical-scroll-proportion="0.0" vertical-offset="10540" max-vertical-offset="18071">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TimerReceiver.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/klinker/deskclock/timer/TimerReceiver.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="300" column="99" selection-start="12932" selection-end="12932" vertical-scroll-proportion="0.0" vertical-offset="5100" max-vertical-offset="7701">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="70" selection-start="805" selection-end="805" vertical-scroll-proportion="0.325" vertical-offset="0" max-vertical-offset="2890">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StopwatchFragment.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/klinker/deskclock/stopwatch/StopwatchFragment.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="518" column="12" selection-start="20916" selection-end="20916" vertical-scroll-proportion="0.0" vertical-offset="8806" max-vertical-offset="18003">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -244,6 +187,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -278,8 +223,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -293,7 +236,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="recentsLimit" value="5" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../evolvesms" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="restartRequiresConfirmation" value="true" />
     <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="options.splitter.main.proportions" value="0.3" />
@@ -495,7 +438,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1066" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -515,7 +458,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17518637" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17518637" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32747254" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="SVN Repositories" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32929516" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -703,23 +646,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/klinker/deskclock/AlarmInitReceiver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="13" selection-start="1095" selection-end="1095" vertical-scroll-proportion="-0.048076924" vertical-offset="127" max-vertical-offset="1190">
-          <folding />
-        </state>
+        <state line="31" column="13" selection-start="1095" selection-end="1095" vertical-scroll-proportion="-0.048076924" vertical-offset="127" max-vertical-offset="1190" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/klinker/deskclock/AlarmUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="145" selection-start="1455" selection-end="1455" vertical-scroll-proportion="-1.8115385" vertical-offset="1163" max-vertical-offset="1683">
-          <folding />
-        </state>
+        <state line="40" column="145" selection-start="1455" selection-end="1455" vertical-scroll-proportion="-1.8115385" vertical-offset="1163" max-vertical-offset="1683" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/klinker/deskclock/AlarmListeners.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="13" selection-start="709" selection-end="709" vertical-scroll-proportion="0.22884615" vertical-offset="0" max-vertical-offset="520">
-          <folding />
-        </state>
+        <state line="21" column="13" selection-start="709" selection-end="709" vertical-scroll-proportion="0.22884615" vertical-offset="0" max-vertical-offset="520" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/alarm_alert_fullscreen.xml">
@@ -803,51 +740,39 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/klinker/deskclock/DeskClock.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="486" column="51" selection-start="17527" selection-end="17527" vertical-scroll-proportion="0.0" vertical-offset="7213" max-vertical-offset="9095">
+        <state line="486" column="51" selection-start="17527" selection-end="17527" vertical-scroll-proportion="0.0" vertical-offset="7213" max-vertical-offset="9095" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/klinker/deskclock/HandleApiCalls.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="204" column="60" selection-start="8121" selection-end="8121" vertical-scroll-proportion="0.0" vertical-offset="2491" max-vertical-offset="4182" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/klinker/deskclock/stopwatch/StopwatchService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="148" column="55" selection-start="6002" selection-end="6002" vertical-scroll-proportion="0.0" vertical-offset="1896" max-vertical-offset="7463" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/klinker/deskclock/timer/TimerFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="620" column="12" selection-start="24010" selection-end="24010" vertical-scroll-proportion="0.0" vertical-offset="9087" max-vertical-offset="16711" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/klinker/deskclock/timer/TimerReceiver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="300" column="99" selection-start="12932" selection-end="12932" vertical-scroll-proportion="0.0" vertical-offset="5100" max-vertical-offset="7701" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="0" selection-start="970" selection-end="970" vertical-scroll-proportion="0.4" vertical-offset="0" max-vertical-offset="2890">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/klinker/deskclock/stopwatch/StopwatchFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="518" column="12" selection-start="20916" selection-end="20916" vertical-scroll-proportion="0.0" vertical-offset="7676" max-vertical-offset="16694">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/klinker/deskclock/HandleApiCalls.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="204" column="60" selection-start="8121" selection-end="8121" vertical-scroll-proportion="0.0" vertical-offset="2491" max-vertical-offset="4182">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/klinker/deskclock/stopwatch/StopwatchService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="148" column="55" selection-start="6002" selection-end="6002" vertical-scroll-proportion="0.0" vertical-offset="1896" max-vertical-offset="7463">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/klinker/deskclock/timer/TimerFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="620" column="12" selection-start="24010" selection-end="24010" vertical-scroll-proportion="0.0" vertical-offset="9087" max-vertical-offset="16711">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/klinker/deskclock/timer/TimerReceiver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="300" column="99" selection-start="12932" selection-end="12932" vertical-scroll-proportion="0.0" vertical-offset="5100" max-vertical-offset="7701">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="70" selection-start="805" selection-end="805" vertical-scroll-proportion="0.325" vertical-offset="0" max-vertical-offset="2890">
-          <folding />
-        </state>
+        <state line="518" column="12" selection-start="20916" selection-end="20916" vertical-scroll-proportion="0.0" vertical-offset="7676" max-vertical-offset="16694" />
       </provider>
     </entry>
   </component>
