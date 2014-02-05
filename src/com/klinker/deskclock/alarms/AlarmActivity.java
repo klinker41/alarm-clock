@@ -198,7 +198,8 @@ public class AlarmActivity extends Activity {
 
     public void setUpView() {
         Calendar cal = Calendar.getInstance();
-        int day = (cal.get(Calendar.DAY_OF_MONTH) - 14) % 16;
+        int dayOfMonth = cal.get(Calendar.DAY_OF_MONTH);
+        int day = dayOfMonth >= 14 ? (cal.get(Calendar.DAY_OF_MONTH) - 14) % 16 : dayOfMonth;
         TextView tv = (TextView)findViewById(R.id.alertTitle);
         tv.setText(getResources().getStringArray(R.array.attributes)[day]);
         tv.setMovementMethod(new ScrollingMovementMethod());
