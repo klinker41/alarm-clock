@@ -12,15 +12,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0ed8fe63-fdbd-4c47-a286-716df638d26d" name="Default" comment="more fixes for clock formatting&#10;">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/klinker/deskclock/widget/AnimatedLogoFragment.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/klinker/deskclock/widget/AnimatedLogoView.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/klinker/deskclock/widget/LogoPaths.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/klinker/deskclock/widget/SvgPathParser.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/animated_logo_fragment.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/klinker/deskclock/alarms/AlarmActivity.java" afterPath="$PROJECT_DIR$/src/com/klinker/deskclock/alarms/AlarmActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidManifest.xml" afterPath="$PROJECT_DIR$/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/alarm_alert.xml" afterPath="$PROJECT_DIR$/res/layout/alarm_alert.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout-land/alarm_alert.xml" afterPath="$PROJECT_DIR$/res/layout-land/alarm_alert.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="alarm-clock.iws" />
@@ -94,10 +86,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="88" column="40" selection-start="4162" selection-end="4162" vertical-scroll-proportion="0.0" vertical-offset="1496" max-vertical-offset="2839">
+            <state line="2" column="30" selection-start="139" selection-end="139" vertical-scroll-proportion="0.051593322" vertical-offset="0" max-vertical-offset="2839">
               <folding />
             </state>
           </provider>
@@ -133,10 +125,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AlarmActivity.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="AlarmActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/klinker/deskclock/alarms/AlarmActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="205" column="29" selection-start="7923" selection-end="7923" vertical-scroll-proportion="0.40667677" vertical-offset="2469" max-vertical-offset="4641">
+            <state line="202" column="93" selection-start="7736" selection-end="7736" vertical-scroll-proportion="0.0" vertical-offset="2469" max-vertical-offset="4641">
               <folding />
             </state>
           </provider>
@@ -250,11 +242,11 @@
         <option value="$PROJECT_DIR$/res/layout-land/alarm_alert.xml" />
         <option value="$PROJECT_DIR$/res/layout/alarm_alert.xml" />
         <option value="$PROJECT_DIR$/src/com/klinker/deskclock/widget/AnimatedLogoFragment.java" />
-        <option value="$PROJECT_DIR$/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/res/layout/animated_logo_fragment.xml" />
         <option value="$PROJECT_DIR$/src/com/klinker/deskclock/widget/AnimatedLogoView.java" />
         <option value="$PROJECT_DIR$/src/com/klinker/deskclock/widget/LogoPaths.java" />
         <option value="$PROJECT_DIR$/src/com/klinker/deskclock/alarms/AlarmActivity.java" />
+        <option value="$PROJECT_DIR$/AndroidManifest.xml" />
       </list>
     </option>
   </component>
@@ -985,13 +977,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="88" column="40" selection-start="4162" selection-end="4162" vertical-scroll-proportion="0.0" vertical-offset="1496" max-vertical-offset="2839">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/res/values/array.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="977" column="18" selection-start="30377" selection-end="30381" vertical-scroll-proportion="0.0" vertical-offset="16201" max-vertical-offset="17085">
@@ -1010,7 +995,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/klinker/deskclock/alarms/AlarmActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="205" column="29" selection-start="7923" selection-end="7923" vertical-scroll-proportion="0.40667677" vertical-offset="2469" max-vertical-offset="4641">
+        <state line="202" column="93" selection-start="7736" selection-end="7736" vertical-scroll-proportion="0.0" vertical-offset="2469" max-vertical-offset="4641">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="30" selection-start="139" selection-end="139" vertical-scroll-proportion="0.051593322" vertical-offset="0" max-vertical-offset="2839">
           <folding />
         </state>
       </provider>
