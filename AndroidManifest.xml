@@ -85,7 +85,8 @@
                   android:theme="@style/AlarmAlertFullScreenTheme"
                   android:windowSoftInputMode="stateAlwaysHidden"
                   android:showOnLockScreen="true"
-                  android:configChanges="orientation|screenSize|keyboardHidden|keyboard|navigation"/>
+                  android:configChanges="orientation|screenSize|keyboardHidden|keyboard|navigation"
+                  android:exported="true"/>
 
         <activity android:name="ScreensaverActivity"
                 android:excludeFromRecents="true"

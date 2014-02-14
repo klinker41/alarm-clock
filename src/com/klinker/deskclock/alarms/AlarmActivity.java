@@ -40,6 +40,7 @@ import com.klinker.deskclock.Log;
 import com.klinker.deskclock.R;
 import com.klinker.deskclock.SettingsActivity;
 import com.klinker.deskclock.provider.AlarmInstance;
+import com.klinker.deskclock.widget.AnimatedLogoFragment;
 import com.klinker.deskclock.widget.multiwaveview.GlowPadView;
 
 import java.util.Calendar;
@@ -200,9 +201,16 @@ public class AlarmActivity extends Activity {
         Calendar cal = Calendar.getInstance();
         int dayOfMonth = cal.get(Calendar.DAY_OF_MONTH);
         int day = dayOfMonth >= 14 ? (cal.get(Calendar.DAY_OF_MONTH) - 14) % 16 : dayOfMonth;
-        TextView tv = (TextView)findViewById(R.id.alertTitle);
-        tv.setText(getResources().getStringArray(R.array.attributes)[day]);
-        tv.setMovementMethod(new ScrollingMovementMethod());
+        final AnimatedLogoFragment logoFragment = (AnimatedLogoFragment)
+                getFragmentManager().findFragmentById(R.id.animated_logo_fragment);
+        logoFragment.reset();
+        logoFragment.setGlyph(day);
+        new Handler().postDelayed(new Runnable() {
+            @Override
+            public void run() {
+                logoFragment.start();
+            }
+        }, 500);
         TextView attribute = (TextView) findViewById(R.id.attribute);
         attribute.setText(getResources().getStringArray(R.array.definitions)[day]);
 
