@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pre-dex-items>
+
+    <item
+        dex="C:\Users\Jacob\workspace\Inspire\inspire\build\pre-dexed\debug\support-v4-19.1.0-85d1eb409ed4fe67b7cd6b72597622fca316d37c.jar"
+        jar="C:\Users\Jacob\AppData\Local\Android\android-sdk\extras\android\m2repository\com\android\support\support-v4\19.1.0\support-v4-19.1.0.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67"/>
+    <item
+        dex="C:\Users\Jacob\workspace\Inspire\inspire\build\pre-dexed\debug\classes-77b9bcb8b372e5d8e89d030bacc32368fc00254f.jar"
+        jar="C:\Users\Jacob\workspace\Inspire\build\exploded-aar\datetimepicker\classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="46e70af010ed5a1f5b1000ba2d45701789c8a16a"/>
+    <item
+        dex="C:\Users\Jacob\workspace\Inspire\inspire\build\pre-dexed\debug\support-v13-19.1.0-cb08fe46666fad3b9a3fd9f983c24d7a99980bf0.jar"
+        jar="C:\Users\Jacob\AppData\Local\Android\android-sdk\extras\android\m2repository\com\android\support\support-v13\19.1.0\support-v13-19.1.0.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="6b852a232f642c75a7fdfc7212b841b8c8f8959c"/>
+
+</pre-dex-items>

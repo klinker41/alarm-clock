@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/alarm-clock.iml" filepath="$PROJECT_DIR$/alarm-clock.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../libraries/datetimepicker/datetimepicker.iml" filepath="$PROJECT_DIR$/../libraries/datetimepicker/datetimepicker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Inspire.iml" filepath="$PROJECT_DIR$/Inspire.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libraries/datetimepicker/datetimepicker.iml" filepath="$PROJECT_DIR$/libraries/datetimepicker/datetimepicker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/inspire/inspire.iml" filepath="$PROJECT_DIR$/inspire/inspire.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libraries/libraries.iml" filepath="$PROJECT_DIR$/libraries/libraries.iml" />
     </modules>
   </component>
 </project>
