@@ -25,10 +25,19 @@ android {
         versionCode 6
         versionName "1.1.0"
     }
+    signingConfigs {
+        release {
+            storeFile file("********")
+            storePassword "********"
+            keyAlias "********"
+            keyPassword "********"
+        }
+    }
     buildTypes {
         release {
             runProguard false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+            signingConfig signingConfigs.release
         }
     }
     lintOptions {
