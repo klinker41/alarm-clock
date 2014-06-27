@@ -16,12 +16,12 @@ repositories {
 }
 
 android {
-    compileSdkVersion 19
-    buildToolsVersion "19.1.0"
+    compileSdkVersion 20
+    buildToolsVersion "20.0.0"
 
     defaultConfig {
         minSdkVersion 14
-        targetSdkVersion 19
+        targetSdkVersion 20
         versionCode 6
         versionName "1.1.0"
     }
@@ -37,6 +37,6 @@ android {
 }
 
 dependencies {
-    compile 'com.android.support:support-v13:+'
+    compile 'com.android.support:support-v13:20.0.0'
     compile(name:'datetimepicker', ext:'aar')
 }
