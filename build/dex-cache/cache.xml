@@ -2,40 +2,40 @@
 <pre-dex-items>
 
     <item
-        dex="C:\Users\Jacob\workspace\Inspire\inspire\build\pre-dexed\debug\support-annotations-20.0.0-b3ed112887314e84444a71c1c8ee165098505747.jar"
-        jar="C:\Users\Jacob\AppData\Local\Android\android-sdk\extras\android\m2repository\com\android\support\support-annotations\20.0.0\support-annotations-20.0.0.jar"
+        dex="/home/jacob/workspace/inspire/inspire/build/pre-dexed/debug/classes-f4ce487299d6f6777bb6f16ad70fb2355316e8c0.jar"
+        jar="/home/jacob/workspace/inspire/build/exploded-aar/datetimepicker/classes.jar"
         jumboMode="false"
         revision="20.0.0"
-        sha1="9d9013e9ff35fc3756411e62873c363c70c638fa"/>
+        sha1="46e70af010ed5a1f5b1000ba2d45701789c8a16a"/>
     <item
-        dex="C:\Users\Jacob\workspace\Inspire\inspire\build\pre-dexed\debug\internal_impl-20.0.0-ec1318a524f92485ede142db4e79da462993e419.jar"
-        jar="C:\Users\Jacob\workspace\Inspire\build\exploded-aar\com.android.support\support-v4\20.0.0\libs\internal_impl-20.0.0.jar"
+        dex="/home/jacob/workspace/inspire/inspire/build/pre-dexed/debug/internal_impl-20.0.0-09e0cb2dc2f1931faa200e9f961664cfd2b31274.jar"
+        jar="/home/jacob/workspace/inspire/build/exploded-aar/com.android.support/support-v4/20.0.0/libs/internal_impl-20.0.0.jar"
         jumboMode="false"
         revision="20.0.0"
         sha1="e40b3078e3fbd353c9f44da8df25a8fc0078209d"/>
     <item
-        dex="C:\Users\Jacob\workspace\Inspire\inspire\build\pre-dexed\debug\classes-4a89fc4bbd5081927d62902af0e0e2fec6b61208.jar"
-        jar="C:\Users\Jacob\workspace\Inspire\build\exploded-aar\com.android.support\support-v4\20.0.0\classes.jar"
+        dex="/home/jacob/workspace/inspire/inspire/build/pre-dexed/debug/support-annotations-20.0.0-a4cfa35df064835f9583ff2a68527eacb422bb05.jar"
+        jar="/home/jacob/Programs/android-sdk-linux/extras/android/m2repository/com/android/support/support-annotations/20.0.0/support-annotations-20.0.0.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="9d9013e9ff35fc3756411e62873c363c70c638fa"/>
+    <item
+        dex="/home/jacob/workspace/inspire/inspire/build/pre-dexed/debug/classes-36528abddc17d3f8ab085a881bd6686d8c67f74b.jar"
+        jar="/home/jacob/workspace/inspire/build/exploded-aar/com.android.support/support-v13/20.0.0/classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="e128103d5281ddd26195a7f980b36d0d005a4e56"/>
+    <item
+        dex="/home/jacob/workspace/inspire/inspire/build/pre-dexed/debug/classes-7519a277a3c037e7d828086dfddf160ebdf6bc9e.jar"
+        jar="/home/jacob/workspace/inspire/build/exploded-aar/com.android.support/support-v4/20.0.0/classes.jar"
         jumboMode="false"
         revision="20.0.0"
         sha1="8694693636ab36910c8100ce527c258ff3ebece0"/>
     <item
-        dex="C:\Users\Jacob\workspace\Inspire\inspire\build\pre-dexed\debug\classes-77b9bcb8b372e5d8e89d030bacc32368fc00254f.jar"
-        jar="C:\Users\Jacob\workspace\Inspire\build\exploded-aar\datetimepicker\classes.jar"
-        jumboMode="false"
-        revision="19.1.0"
-        sha1="46e70af010ed5a1f5b1000ba2d45701789c8a16a"/>
-    <item
-        dex="C:\Users\Jacob\workspace\Inspire\inspire\build\pre-dexed\debug\internal_impl-20.0.0-5d307e2ae21892a6ffbe2409eb00d6d27b8a2567.jar"
-        jar="C:\Users\Jacob\workspace\Inspire\build\exploded-aar\com.android.support\support-v13\20.0.0\libs\internal_impl-20.0.0.jar"
+        dex="/home/jacob/workspace/inspire/inspire/build/pre-dexed/debug/internal_impl-20.0.0-cffe65a8f7ef1db2b98e7cff5987bb6c1bedb501.jar"
+        jar="/home/jacob/workspace/inspire/build/exploded-aar/com.android.support/support-v13/20.0.0/libs/internal_impl-20.0.0.jar"
         jumboMode="false"
         revision="20.0.0"
         sha1="27bbd3982cdfe4468a9bf99c8c773734a9049e33"/>
-    <item
-        dex="C:\Users\Jacob\workspace\Inspire\inspire\build\pre-dexed\debug\classes-077fc923c47ef731bb0f405bff441113f321a279.jar"
-        jar="C:\Users\Jacob\workspace\Inspire\build\exploded-aar\com.android.support\support-v13\20.0.0\classes.jar"
-        jumboMode="false"
-        revision="20.0.0"
-        sha1="e128103d5281ddd26195a7f980b36d0d005a4e56"/>
 
 </pre-dex-items>
